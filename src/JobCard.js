@@ -1,5 +1,5 @@
 import React from 'react';
-import { Draggable } from 'react-beautiful-dnd';
+import { Draggable } from '@hello-pangea/dnd';
 
 const JobCard = ({ job, index, onClick }) => {
   const priority = (job.priority || 'medium').toLowerCase();

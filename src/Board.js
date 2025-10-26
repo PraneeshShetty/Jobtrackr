@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { DragDropContext } from 'react-beautiful-dnd';
+import { DragDropContext } from '@hello-pangea/dnd';
 import Column from './Column';
 import JobDetailModal from './JobDetailModal';
 import AddJobModal from './AddJobModal';
